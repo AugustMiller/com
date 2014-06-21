@@ -1,0 +1,110 @@
+/*
+	Celebration of Mind
+	---
+	August W. Miller
+	June 2014
+*/
+
+/* Miscellany and Global */
+
+::selection {
+	background: rgba(0,0,0,0.25);
+}
+
+.clear:after {
+	display: table;
+	content: '';
+	*zoom: 1;
+}
+
+*:focus {
+	outline: none;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 18px;
+	line-height: 23px;
+	padding: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	font-size: 100%;
+	margin: 0 0 1em 0;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Links */
+
+a:link {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px dashed black;
+}
+
+a:link:hover {
+	border-bottom-style: solid;
+}
+
+.no-decoration {
+	border-bottom: none;
+}
+
+
+/* Typography Helpers */
+
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+ul.colophon {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.colophon li {
+	padding: 0 2em 1em 0;
+	display: inline-block;
+}
+
+
+/* Layout */
+
+header, main, footer {
+	display: block;
+}
+
+.container {
+	margin-bottom: 3em;
+	max-width: 40em;
+}
+
+article {
+	margin-bottom: 3em;
+}
+
+figure {
+	margin: 0;
+}
+
+figcaption {
+	font-style: italic;
+}
